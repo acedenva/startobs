@@ -58,7 +58,7 @@ function startObs () {
 	startProgram(AutoRefresh)
 }
 async function main () {
-	if (!await getRestreamStatus()) {
+	if (await getRestreamStatus()) {
 		startObs()
 	} else {
 		console.log('obs starting abort! target not online')
