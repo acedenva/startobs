@@ -46,7 +46,7 @@ function startObs () {
 	let obsArgs = [
 		'--profile "drache"',
 		'--scene "dracheRestreamFull"',
-		//	'--startstreaming'
+		'--startstreaming'
 	]
 	startProgram(obs,obsArgs)
 	let translate = 'C:\\scripts\\translate\\main.js'
